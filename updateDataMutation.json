@@ -1,0 +1,11 @@
+{
+	"metadata":{"event":{
+  "data": "{{RequestBody.data}}",
+  "message": "{{ResponseBody.message}}",
+  "area":"AEXEOS"
+	}},
+	"body":{
+  "dataKey": "{{RequestBody.data}}",
+  "messageKey": "{{ResponseBody.message}}"
+	}
+}
